@@ -1,0 +1,12 @@
+- hosts: kubelet
+  roles:
+  - base_env
+- hosts: nginx01
+  roles:
+  - nginx01
+- hosts: nginx02
+  roles:
+  - nginx02
+- hosts: nginx03
+  roles:
+  - nginx03

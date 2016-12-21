@@ -1,0 +1,2 @@
+- name: Create the contains common plays that will run on all nodes 
+  copy: src=epel.repo dest=/etc/yum.repos.d/epel.repo

@@ -1,0 +1,5 @@
+worker_processes: 1
+num_cpus: 1
+max_open_file: 35506
+root: /web
+remote_user: root
